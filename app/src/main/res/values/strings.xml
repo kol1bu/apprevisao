@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AppRevisão</string>
+    <string name="enunciado">Digite os valores:</string>
+    <string name="botao">Testar</string>
+</resources>

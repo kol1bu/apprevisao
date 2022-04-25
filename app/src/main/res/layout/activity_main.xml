@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_gravity="center_vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/enunciado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/enunciado"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/campo_1"
+        android:layout_width="220dp"
+        android:inputType="number"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:id="@+id/campo_2"
+        android:layout_gravity="center_horizontal"
+        android:inputType="number"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/done_button"
+        android:text="@string/botao"
+        android:layout_gravity="center_horizontal"
+        android:onClick="clickHandlerFunction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
